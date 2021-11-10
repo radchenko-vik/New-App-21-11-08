@@ -1,12 +1,11 @@
 import React from "react";
+import Header from "./components/header";
 
 const App = () => (
     <div className='App'>
         <div className='container'>
             <div className='todo-app'>
-                <header>
-                    <h1>todo app</h1>
-                </header>
+                <Header />
                 <div className='todo-creator'>
                     <input type='text' className='message' />
                     <button className='btn add-todo'>add</button>
